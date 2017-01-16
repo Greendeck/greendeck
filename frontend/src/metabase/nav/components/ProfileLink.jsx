@@ -99,7 +99,7 @@ export default class ProfileLink extends Component {
                                 : null }
 
                                 <li>
-                                    <a data-metabase-event={"Navbar;Profile Dropdown;Help "+tag} className="Dropdown-item block text-white no-decoration" href={"http://www.metabase.com/docs/"+tag} target="_blank">
+                                    <a data-metabase-event={"Navbar;Profile Dropdown;Help "+tag} className="Dropdown-item block text-white no-decoration" href={"http://www.greendeck.co/docs/"+tag} target="_blank">
                                         Help
                                     </a>
                                 </li>
@@ -155,8 +155,8 @@ export default class ProfileLink extends Component {
                             </div>
                         </div>
                         <div style={{borderWidth: "2px"}} className="p2 h5 text-centered text-grey-3 border-top">
-                            <span className="block"><span className="text-bold">Greendeck</span> is a Trademark of Greendeck, Inc</span>
-                            <span>and is built with care in San Francisco, CA</span>
+                            <span className="block"><span className="text-bold">Greendeck</span> is a Trademark of TrueMD Technologies </span>
+                            <span>and is built with care in India</span>
                         </div>
                     </Modal>
                 : modalOpen === "logs" ?

@@ -1,5 +1,5 @@
 export const normal = {
-    blue: '#509EE3',
+    blue: '#23DC8E',
     green: '#9CC177',
     purple: '#A989C5',
     red: '#EF8C8C',
@@ -23,7 +23,7 @@ export const desaturated = {
 }
 
 export const harmony = [
-    "#509ee3",
+    "#23DC8E",
     "#9cc177",
     "#a989c5",
     "#ef8c8c",

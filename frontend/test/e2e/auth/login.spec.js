@@ -27,7 +27,7 @@ describeE2E("auth/login", () => {
 
         it("should log you in", async () => {
             await driver.get(`${server.host}/`);
-            await loginMetabase(driver, "bob@metabase.com", "12341234");
+            await loginMetabase(driver, "bob@greendeck.co", "12341234");
             await waitForUrl(driver, `${server.host}/`);
             const sessionCookie = await driver.manage().getCookie("metabase.SESSION_ID");
             sessionId = sessionCookie.value;
@@ -36,7 +36,7 @@ describeE2E("auth/login", () => {
         it("should redirect you after logging in", async () => {
             await driver.get(`${server.host}/questions`);
             await waitForUrl(driver, `${server.host}/auth/login?redirect=%2Fquestions`);
-            await loginMetabase(driver, "bob@metabase.com", "12341234");
+            await loginMetabase(driver, "bob@greendeck.co", "12341234");
             await waitForUrl(driver, `${server.host}/questions`);
         });
     });

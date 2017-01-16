@@ -4,7 +4,7 @@ import StackedCheckBox from "metabase/components/StackedCheckBox.jsx";
 
 storiesOf("StackedCheckBox", module)
     .add("on inverted", () =>
-        <Centered><StackedCheckBox style={{ color: "#509EE3" }} invertChecked checked={true} onChange={linkTo("StackedCheckBox", "off")} /></Centered>
+        <Centered><StackedCheckBox style={{ color: "#23DC8E" }} invertChecked checked={true} onChange={linkTo("StackedCheckBox", "off")} /></Centered>
     )
     .add("off", () =>
         <Centered><StackedCheckBox checked={false} onChange={linkTo("StackedCheckBox", "on inverted")} /></Centered>

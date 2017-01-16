@@ -4,7 +4,7 @@ import CheckBox from "metabase/components/CheckBox.jsx";
 
 storiesOf("CheckBox", module)
     .add("on inverted", () =>
-        <Centered><CheckBox style={{ color: "#509EE3" }} invertChecked checked={true} onChange={linkTo("CheckBox", "off")} /></Centered>
+        <Centered><CheckBox style={{ color: "#23DC8E" }} invertChecked checked={true} onChange={linkTo("CheckBox", "off")} /></Centered>
     )
     .add("off", () =>
         <Centered><CheckBox checked={false} onChange={linkTo("CheckBox", "on inverted")} /></Centered>

@@ -118,7 +118,7 @@ const TagEditorHelp = ({ setQuery, sampleDatasetId }) => {
             <TagExample datasetQuery={EXAMPLES.multipleOptional} setQuery={setQueryWithSampleDatasetId} />
 
             <p>
-                <a href="http://www.metabase.com/docs/latest/users-guide/start" target="_blank" data-metabase-event="QueryBuilder;Template Tag Documentation Click">Read the full documentation</a>
+                <a href="http://www.greendeck.co/docs/latest/users-guide/start" target="_blank" data-metabase-event="QueryBuilder;Template Tag Documentation Click">Read the full documentation</a>
             </p>
         </div>
     )

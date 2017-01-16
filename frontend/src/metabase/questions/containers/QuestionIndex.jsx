@@ -118,7 +118,7 @@ const CollectionEmptyState = () =>
             <div className="mt1">
                 Collections help you organize your questions and allow you to decide who gets to see what.
                 {" "}
-                <Link to="http://metabase.com/FIXME">Learn more</Link>
+                <Link to="http://greendeck.co/FIXME">Learn more</Link>
             </div>
         </div>
         <Link to="/collections/create">

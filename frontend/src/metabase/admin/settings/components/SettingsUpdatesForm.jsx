@@ -80,7 +80,7 @@ export default class SettingsUpdatesForm extends Component {
                 <div>
                     <div className="p2 bg-green bordered rounded border-green flex flex-row align-center justify-between">
                         <span className="text-white text-bold">Greendeck {this.removeVersionPrefixIfNeeded(versionInfo.latest.version)} is available.  You're running {this.removeVersionPrefixIfNeeded(currentVersion)}</span>
-                        <a data-metabase-event={"Updates Settings; Update link clicked; "+versionInfo.latest.version} className="Button Button--white Button--medium borderless" href="http://www.metabase.com/start" target="_blank">Update</a>
+                        <a data-metabase-event={"Updates Settings; Update link clicked; "+versionInfo.latest.version} className="Button Button--white Button--medium borderless" href="http://www.greendeck.co/start" target="_blank">Update</a>
                     </div>
 
                     <div className="text-grey-3">

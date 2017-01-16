@@ -13,7 +13,7 @@ jasmine.DEFAULT_TIMEOUT_INTERVAL = 60000;
 
 describeE2E("tutorial", () => {
     beforeAll(async () => {
-        await ensureLoggedIn(server, driver, "bob@metabase.com", "12341234");
+        await ensureLoggedIn(server, driver, "bob@greendeck.co", "12341234");
     });
 
     it("should guide users through query builder tutorial", async () => {

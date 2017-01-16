@@ -12,7 +12,7 @@ jasmine.DEFAULT_TIMEOUT_INTERVAL = 600000;
 
 describeE2E("admin/datamodel", () => {
     beforeEach(() =>
-        ensureLoggedIn(server, driver, "bob@metabase.com", "12341234")
+        ensureLoggedIn(server, driver, "bob@greendeck.co", "12341234")
     );
 
     describe("data model editor", () => {

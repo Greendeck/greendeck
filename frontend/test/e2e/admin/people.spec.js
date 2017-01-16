@@ -16,12 +16,12 @@ jasmine.DEFAULT_TIMEOUT_INTERVAL = 60000;
 describeE2E("admin/people", () => {
     describe("user management", () => {
         it("should allow admin to create new users", async () => {
-            const email = "testy" + Math.round(Math.random()*10000) + "@metabase.com";
+            const email = "testy" + Math.round(Math.random()*10000) + "@greendeck.co";
             const firstName = "Testy";
             const lastName = "McTestFace";
 
             await driver.get(`${server.host}/`);
-            await loginMetabase(driver, "bob@metabase.com", "12341234");
+            await loginMetabase(driver, "bob@greendeck.co", "12341234");
             await waitForUrl(driver, `${server.host}/`);
 
             await driver.get(`${server.host}/admin/people`);

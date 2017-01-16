@@ -61,12 +61,12 @@ describe('formatting', () => {
 
     describe("formatUrl", () => {
         it("should return a string when not in jsx mode", () => {
-            expect(formatUrl("http://metabase.com/")).toEqual("http://metabase.com/")
+            expect(formatUrl("http://greendeck.co/")).toEqual("http://greendeck.co/")
         });
         it("should return a component for http:, https:, and mailto: links in jsx mode", () => {
-            expect(isElementOfType(formatUrl("http://metabase.com/", { jsx: true }), ExternalLink)).toEqual(true);
-            expect(isElementOfType(formatUrl("https://metabase.com/", { jsx: true }), ExternalLink)).toEqual(true);
-            expect(isElementOfType(formatUrl("mailto:tom@metabase.com", { jsx: true }), ExternalLink)).toEqual(true);
+            expect(isElementOfType(formatUrl("http://greendeck.co/", { jsx: true }), ExternalLink)).toEqual(true);
+            expect(isElementOfType(formatUrl("https://greendeck.co/", { jsx: true }), ExternalLink)).toEqual(true);
+            expect(isElementOfType(formatUrl("mailto:tom@greendeck.co", { jsx: true }), ExternalLink)).toEqual(true);
         });
         it("should return a string for javascript:, data:, and other links in jsx mode", () => {
             expect(formatUrl("javascript:alert('pwnd')", { jsx: true })).toEqual("javascript:alert('pwnd')");
